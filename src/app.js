@@ -28,9 +28,9 @@ const initPlayers = (players) => {
     // Type your code here
     for(let i=0;i<20;i++){
         if (i%2==0){
-            detailedPlayers.push({name:players[i-1],strength:getRandomStrength(),image:`./images/super-${i+1}.png`,type:'hero'})
+            detailedPlayers.push({name:players[i],strength:getRandomStrength(),image:`./images/super-${i+1}.png`,type:'hero'})
         }else{
-            detailedPlayers.push({name:players[i-1],strength:getRandomStrength(),image:`./images/super-${i+1}.png`,type:'villain'})
+            detailedPlayers.push({name:players[i],strength:getRandomStrength(),image:`./images/super-${i+1}.png`,type:'villain'})
         }
        
     }
